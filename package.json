@@ -1,0 +1,35 @@
+{
+	"name": "@shark0f/fish",
+	"version": "0.1.1",
+	"description": "A simple AES encryption library",
+	"keywords": [
+		"aes",
+		"encryption",
+		"decryption"
+	],
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"test": "vitest run",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shark0f/fish.git"
+	},
+	"author": "shark0",
+	"license": "GPLv3",
+	"bugs": {
+		"url": "https://github.com/shark0f/fish/issues"
+	},
+	"homepage": "https://github.com/shark0f/fish#readme",
+	"dependencies": {
+		"aes-js": "3.1.2",
+		"scrypt-js": "^3.0.1"
+	},
+	"devDependencies": {
+		"@types/aes-js": "^3.1.1",
+		"typescript": "^4.7.4",
+		"vitest": "^0.17.0"
+	}
+}
